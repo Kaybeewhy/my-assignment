@@ -1,0 +1,783 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #49184E;
+}
+
+.rec1{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    position: absolute;
+    left: 70px;
+    top: 30px;
+}
+.rec2{
+    height: 20px;
+    width: 20px;
+    background: #F91A9F;
+    position: absolute;
+    left: 80px;
+    top: 40px;
+}
+
+.op{
+    width: 107px;
+    height: 31px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FCF7FD;
+    position: absolute;
+    left: 110px;
+    top: 15px;
+}
+
+.in{
+    box-sizing: border-box;
+    color: white;
+    height: 30px;
+    width: 70%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+    box-shadow: 0px 4px 24px -1px rgba(184, 66, 208, 0.25);
+    backdrop-filter: blur(25px);
+    border-radius: 20px;
+    text-indent: 10px;
+    margin-left: 10%;
+    margin-top: 9%;
+    z-index: 0;
+    cursor: pointer ;
+}
+.in:focus{
+    outline: none;
+}
+.inn{
+    margin-left: 70%;
+    margin-top: -13.5%;
+    z-index: 1;
+}
+
+/* nav bar */
+.topl{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1.7fr 0.8fr;
+    margin-left: 5%;
+    padding-top: 3%;
+}
+
+
+
+.logo{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.ser{
+    display: grid;
+}
+
+.tet{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+
+.buy{
+    margin-left: 15%;
+    margin-top: 5%;
+    
+}
+
+.buy a{
+    text-decoration: none;
+    margin-top: 100%;
+}
+
+.now{
+    width: 100px;
+    height: 50px;
+    background: #F1D8F3;
+    text-indent: 5px;
+    margin-top: 0%;
+    line-height: 200%;
+    padding-bottom: 0;
+    color: #49184E; 
+    font-size: 1.5em;
+    transition: .3s;
+}
+
+.now:hover{
+    padding-left: 0;
+    background-color: #49184E;
+    color: #FCF7FD;
+}
+ 
+.ss{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7em;
+    color: #FCF7FD;
+    padding-right: 50px;
+
+}
+
+/* body > div.topl > div.abt > div > span:nth-child(1) > a{
+    font-size: 1em;
+    padding-right:10%;
+    text-align: left;
+}
+body > div.topl > div.abt > div > span:nth-child(1){
+    padding-right: 10%;
+    text-align: left;
+    font-size: 1.2em;
+
+} */
+.mm{
+    text-decoration: none;
+    color: #FCF7FD;
+}
+
+
+/* shadows */
+.im{
+    position: absolute;
+    float: right !important;
+    background: #9933A2;
+    filter: blur(150px);
+    z-index: -1;
+    text-align: end !important;
+    margin-left: 600px;
+    margin-top: 0;
+    
+}
+body > div.topl > div.kl > img:nth-child(2){
+    margin-left: 0;
+    margin-top: 600px;
+}
+.shadows-img{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: -99px;
+    top: 623px;
+
+}
+/* shadows */
+
+::placeholder{
+    color: white;
+}
+
+/*
+.topl{
+    display: grid;
+    grid-template-columns: 
+    1fr 1.159fr 2fr 1fr;
+}
+*/
+
+.abt{
+    border: 0px solid;
+    width: 40%;
+    display: grid;
+}
+
+
+
+.mm{
+    text-decoration: none;
+    color: #FCF7FD;
+}
+
+
+
+
+
+
+/* banner styles */
+#grid-contianer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10% 5% 0 5%;
+}
+.banner-img{
+    justify-self: end;
+}
+
+.imgs{
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
+    margin: 0;
+    height: 100px;
+    margin-top: 10%;
+}
+
+.img1{
+    margin: 0;
+}
+.img2{
+    margin: 0;
+    z-index: -1;
+    margin-top: -70%;
+}
+.img3{
+    margin: 0;
+    z-index: -1;
+    margin-left: 100%;
+    margin-top: -70%;
+}
+.img4{
+    margin: 0;
+}
+
+/* buttons */
+.buttons{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+}
+
+.button-1{
+    align-self: center;
+}
+
+.buttton-2{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+.button-1 button{
+    color: #49184E;
+    padding: 5%;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.point{
+    cursor: pointer;
+}
+
+.buttton-2 span{
+    align-self: center;
+    color: #FCF7FD;
+    font-size: 1.5rem;
+}
+
+.text-buttons h1{
+    color: #FCF7FD;
+    font-size: 3rem;
+    line-height: 1.2em;
+}
+
+.text-buttons p{
+    color: #FCF7FD;
+    font-size: 1.2rem;
+    line-height: 1.2em;
+}
+.art-music{
+    border: 0px solid;
+    padding-left: 0%;  
+    display: grid;
+    grid-template-columns: 0.159fr 0.159fr 0.159fr 0.159fr 0.159fr 0.159fr;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+
+.art-border{
+    border: 0px solid;
+    width: 60%;
+    text-align: center;
+    background: rgba(241, 216, 243, 0.5); 
+    color: #F1D8F3;
+    margin-left: 20%;
+    margin-right: 0;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.2s;
+}
+
+.art-border:hover{
+    background: #FCF7FD;
+    color: #49184E; 
+}
+
+/*  
+.art-border p{
+    color: #FFFFFF;
+    justify-items: center;
+    margin: 20%;
+    margin-left: 30%;
+
+}
+*/
+/* download reviews styles */
+.style-reviews{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 55%;
+    margin-top: 8%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+    box-shadow: 0px 4px 24px -1px rgba(184, 66, 208, 0.25);
+    backdrop-filter: blur(25px);
+}
+
+.style-reviews .download h3{
+    color: #FCF7FD;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+.style-reviews .download p{
+    color: #FCF7FD;
+    margin-top: 3%;
+    margin-bottom: 0;
+}
+
+.download{
+    justify-self: center;
+    padding: 3%;
+    margin: 15%;
+}
+
+.style-reviews .reviews{
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* binance coinbase */
+/* .binance{
+    border: 1px solid;
+    padding: 3%;
+}
+ */
+.coinbase{
+    border: 1px solid white;
+    padding: 3%;
+    max-width: 80%;
+    margin: 0 5%;
+}
+
+.binance .coinbase img{
+    padding-left: 7%;
+    width: 15%;
+}
+
+/* editior pick text */
+
+.editior{
+    color: #FCF7FD;
+    font-size: 1.5em;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+
+/* nft block */
+.nft{
+    display: grid;
+    margin-top: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.nft-block{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+    box-shadow: 0px 4px 24px -1px rgba(184, 66, 208, 0.25);
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+    width: 70%;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-right: 0;
+    height: 100%;
+    justify-content: center;
+}
+body > div.nft > div:nth-child(1){
+    margin-left: 15%;
+}
+
+body > div.nft > div:nth-child(2){
+    margin-left: 10%;
+}
+
+/* nft inside */
+.nf{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+}
+
+.nft-inside h3{
+    font-size: 2em;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 2%;
+    color: #FCF7FD;
+}
+
+.nft-details{
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 1fr;
+    
+}
+
+.nft-man{
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 0;
+}
+
+.nft-inside span{
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 2%;
+    color: #F91A9F;
+}
+body > div.nft > div > div > div > div.nft-intext > h3:nth-child(1){
+    color: rgba(252, 247, 253, 0.5);
+
+}
+.nft-intext h3{
+    font-size: 1.2em;
+    margin-top: 0%;
+    margin-left: 0;
+}
+
+body > div.nft > div > div > div > div.nft-intextt > h3:nth-child(1){
+    margin-top: 15%;
+
+}
+
+.nft-intextt h3{
+    font-size: 1.2em;
+    margin-top: 0%;
+}
+
+.bid-now{
+    display: grid;
+    grid-template-columns: 0.9fr 1fr;
+    margin-left:6%;
+    margin-top: 6%;
+}
+
+.time-text{
+    display: grid;
+}
+
+.time{
+    display: grid;
+    grid-template-columns: 0.19fr 1fr;
+    margin-top: 4%;
+}
+
+.bid-now a{
+    padding: 0;
+    margin: 0;
+    width: 60%;
+}
+
+.time h3{
+    font-size: 1.3em;
+    margin: 0;
+}
+
+/* see more button */
+
+.see-more{
+    width: 5%;
+    background: #F1D8F3;
+    height: 30px;
+    margin-left: 45%;
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.see-more h3{
+    color: #49184E;
+    margin-top: -3%;
+    font-size: 1.5em;
+}
+
+.see-more a{
+    text-decoration: none;
+    color: #49184E;
+}
+
+/* bottom text */
+
+.create{
+    margin: 0;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+
+.create h3{
+    color: #FCF7FD;
+    font-size: 2.5em;
+}
+
+
+.create1{
+    margin: 0;
+    margin-top: 9%;
+    margin-left: 5%;
+}
+
+.create1 h3{
+    color: #FCF7FD;
+    font-size: 2.5em;
+}
+
+.create2{
+    margin: 0;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.create2 h3{
+    color: #FCF7FD;
+    font-size: 2.5em;
+}
+
+/* nft wallet in */
+
+.nft-wallet{
+    margin-left: 5%;
+    margin-top: 6%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.nft-wallet-in{
+    margin: 0;
+
+}
+
+.nft-wallet-in h3{
+    color: #F91A9F;
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.nft-wallet-in p{
+    color: #FCF7FD;
+    font-size: 1.5em;
+}
+
+/* dots */
+
+.dots{
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+/* nft seller */
+
+.nft-seller{
+    margin: 0;
+    display: grid;
+    padding: 0;
+    margin-left: 5%;
+    width: 90%;
+    height: 10%;
+}
+
+.seller-img{
+    margin-top: 0%;
+    margin: 0;
+    align-self: center;
+}
+
+
+.nft-seller-in{
+    background: rgba(241, 216, 243, 0.5);
+    display: grid;
+    padding: 5%;
+    grid-template-columns: 0.6fr 1.7fr 1fr;
+}
+
+.seller-text h3{
+    margin-top: 0%;
+    margin-left: 7%;
+    font-size: 1.8em;
+    color: #FFFFFF;
+    margin-bottom: 3%;
+}
+
+.seller-text p{
+    margin: 0;
+    margin-top: 0;
+    color: #FFFFFF;
+    margin-left: 7%;
+    font-size: 1.2em;
+}
+
+.seller-text p span{
+    color: #F91A9F;
+    font-size: 1em;
+}
+
+.seller-dot{
+    align-self: center;
+    margin-left: 0%;
+}
+
+.nft-sold{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3%;
+}
+
+/* image bar */
+.imgbar{
+    background-image: url(/mov/fo/imgbar.png);
+    background-repeat: no-repeat;
+    margin-left: 2.5%;
+    height: 25em;
+    margin-top: 5%;
+}
+
+.imgbar-inside{
+    margin-left: 35%;
+    padding-top: 1%;
+    margin-bottom: 0;
+}
+
+.imgbar-inside h3{
+    color: #FFFFFF;
+    font-size: 3em;
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+
+.imgbar-inside p{
+    color: #FFFFFF;
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 3%;
+    margin-left: -6%;
+}
+
+.imn{
+    background: rgba(241, 216, 243, 0.5);
+    border: 0;
+    border-radius: 0;
+    width: 60%;
+    height: 4em;
+    margin-left: 19%;
+    z-index: 1;
+    margin-top: -3%;
+    outline: none;
+    text-indent: 2em;
+    font-size: 1.3em;
+    color: #FFFFFF;
+}
+
+.imn::placeholder{
+    font-size: 1.2em;
+    color: rgba(252, 247, 253, 0.5);
+}
+
+.in-in{
+    z-index: 1;
+    margin-left: 62%;
+    margin-top: -5.5%;
+    font-size: 2em;
+}
+
+.sub{
+    margin: 0;
+}
+
+.large-button{
+    display: grid;
+    margin-top: 5%;
+}
+
+
+
+/* footer */
+
+footer{
+    background: rgba(249, 26, 159, 0.1);
+    height: 20em;
+    display: grid;
+    padding-top: 4%;
+}
+
+.foot-but{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 5%;
+    
+}
+
+.foot-but h2{
+    color: #FFFFFF;
+    margin-top: 10%;
+}
+
+.foot-but p{
+    color: #FFFFFF;
+    margin-top: 0%;
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
+body > footer > div > div.opensee > p{
+    margin-top: -5%;
+}
+
+.opensee{
+    display: grid;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+
+.open-logo{
+    height: 25px;
+    width: 20px;
+    background-color: white;
+    margin-top: -2.9%;
+    z-index: -1;
+}
+
+.open-logo1{
+    height: 25px;
+    width: 20px;
+    background: #F91A9F;
+    margin-left: 0.8%;
+    margin-top: 1%;
+}
+
+.opense{
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+/* ending */
+
+.ending{
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+}
+
+.social-media{
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0fr;
+    margin-left: 20%;
+}
+
+.ending-text h2{
+    color: #FFFFFF;
+    margin-top: 1%;
+}
